@@ -133,11 +133,11 @@ WHERE v.vet_id = (SELECT id FROM vets WHERE name = 'Stephanie Mendez')
 AND v.visit_date BETWEEN '2020-04-01' AND '2020-08-30';
 
 
-SELECT a.name
+SELECT MAX(a.name) AS name, COUNT(v.animal_id) total_visits
 FROM visits v
-JOIN animals a ON v.animal_id = a.id
-GROUP BY a.name
-ORDER BY COUNT(v.vet_id) DESC
+JOIN animals a ON a.id = v.animal_id
+GROUP BY v.animal_id
+ORDER BY total_visits DESC
 LIMIT 1;
 
 
