@@ -55,8 +55,7 @@ VALUES
 ('Stephanie Mendez', 64, '1981-05-04'),
 ('Jack Harkness', 38, '2008-06-08');
 
--- Primero, recogemos los ids correspondientes para los nombres de las especies
--- Y luego, los utilizamos para insertar en la tabla de especializaciones
+
 INSERT INTO specializations (vet_id, species_id)
 VALUES
   ((SELECT id FROM vets WHERE name = 'William Tatcher'), (SELECT id FROM species WHERE name = 'Pokemon')),
