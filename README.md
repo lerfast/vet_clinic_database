@@ -148,11 +148,16 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Luis Emilio Rojas Rojas
+👤 **Luis Emilio Rojas Rojas**
 
 - GitHub: [@githubhandle](https://github.com/lerfast)
 - Twitter: [@twitterhandle](https://twitter.com/lerfast)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-emilio-rojas-rojas-6ba90a8a/)
+
+👤 **Juan Diego Guerra (JD)**
+
+- GitHub: [@JuanDiegoGuerra](https://github.com/JuanDiegoGuerra)
+- LinkedIn: [Juan Guerra](https://www.linkedin.com/in/juan-guerra-65076b1ba/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
